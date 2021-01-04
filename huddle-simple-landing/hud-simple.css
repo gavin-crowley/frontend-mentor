@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.15em;
+  margin: 0;
+}
+
+.header-img {
+  max-width: 80%;
+  margin-right: 20%;
+}
+
+h1,
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 27px;
+  margin-top: 0;
+}
+
+p {
+  opacity: 0.6;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1200px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex > div,
+.flex > ul {
+  flex: 1;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.flex > div {
+  flex: 1;
+}
+
+header {
+  background-image: url('images/bg-desktop.svg');
+  background-size: cover;
+  background-position: center center;
+  background-color: hsl(257, 40%, 49%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Nav styling */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0 40px 0;
+}
+
+.btn {
+  border: none;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: hsl(257, 40%, 49%);
+  font-family: 'Arial', sans-serif;
+  /* font-weight: 700; */
+  font-size: 24px;
+  padding: 20px 80px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: hsl(322, 100%, 66%);
+}
+
+.socials {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+.circle {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+  font-size: larger;
+}
