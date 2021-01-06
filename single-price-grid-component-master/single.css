@@ -9,6 +9,8 @@ body {
   font-family: 'Karla', sans-serif;
   color: #fff;
   background-color: hsl(204, 43%, 93%);
+  min-height: 100vh;
+  padding: 20px;
 }
 
 .container {
