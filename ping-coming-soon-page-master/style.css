@@ -74,7 +74,7 @@ form small {
 
 button {
   background-color: hsl(223, 87%, 63%);
-  border: none;
+  border-color: hsl(223, 87%, 63%);
   border-radius: 50px;
   box-shadow: 0 5px 5px hsl(223, 100%, 88%);
   color: #fff;
