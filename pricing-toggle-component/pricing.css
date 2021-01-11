@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: hsl(232, 13%, 33%);
+  min-height: 100vh;
+  font-family: 'Monserrat', sans-serif;
+  background-color: hsl(240, 78%, 98%);
+  font-weight: 700;
+}
+
+header::after {
+  content: '';
+  background-image: url('images/bg-top.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  z-index: -1;
+}
+
+header::before {
+  content: '';
+  background-image: url('images/bg-bottom.svg');
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+header {
+  text-align: center;
+  margin-top: 60px;
+}
+
+header h1,
+h4,
+.box p {
+  color: #6d708d;
+}
+
+header p {
+  color: hsl(234, 14%, 74%);
+}
+
+main {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.05);
+  max-width: 310px;
+  margin: auto;
+  overflow: hidden;
+  width: 310px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.box-center {
+  background-image: linear-gradient(
+    90deg,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  color: white;
+}
+
+.box-center h4,
+.box-center p {
+  color: white;
+}
+
+.box-center .line {
+  background-color: white;
+}
+
+.box-container {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.box h1 {
+  font-size: 64px;
+  margin: 0;
+  line-height: 53.3px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.box p {
+  font-size: 15px;
+}
+
+.line {
+  border-top: 1px solid hsl(234, 14%, 74%);
+  padding: 1px 0;
+}
+
+button {
+  background-image: linear-gradient(
+    90deg,
+    hsl(236, 72%, 79%),
+    hsl(237, 63%, 64%)
+  );
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 45px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.box-center button {
+  background-image: none;
+  color: hsl(237, 63%, 64%);
+  background-color: white;
+}

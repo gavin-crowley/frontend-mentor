@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow|Barlow+Condensed:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --red: hsl(0, 100%, 68%);
+  --very-dark-blue: hsl(230, 29%, 20%);
+  --dark-grayish-blue: hsl(230, 11%, 40%);
+  --grayish-blue: hsl(231, 7%, 65%);
+  --light-grayish-blue: hsl(207, 33%, 95%);
+}
+
+body {
+  color: hsl(243, 87%, 12%);
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.container {
+  padding: 0 30px;
+  max-width: 100%;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header .shape {
+  height: 500px;
+  width: 900px;
+  background-color: var(--light-grayish-blue);
+  background-position: top right;
+  position: absolute;
+  top: -150px;
+  right: -200px;
+  /* width: 50%; */
+  z-index: -1;
+  border-radius: 80px;
+}
+a {
+  color: #3da08f;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h4 {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 96px;
+  color: var(--very-dark-blue);
+  margin: 0;
+}
+
+p {
+  font-size: 26px;
+  font-weight: 400;
+  color: var(--dark-grayish-blue);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  margin-top: -40px;
+
+  /* flex-wrap: wrap; */
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.flex > div,
+.flex > ul {
+  flex: 1;
+}
+
+.flex > div:first-child {
+  margin-right: 20px;
+}
+
+.flex > div:last-child {
+  margin-left: 20px;
+}
+
+/* Nav styling */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0 0 0;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+nav img {
+  position: relative;
+  top: -30px;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-left: 40px;
+}
+
+nav ul a {
+  color: hsl(243, 87%, 12%);
+  font-size: 19px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.dot {
+  font-size: 80px;
+  position: relative;
+  top: -62px;
+  color: var(--grayish-blue);
+}
+
+.login a {
+  color: var(--grayish-blue);
+}
+
+.button-wrap {
+  margin: 70px 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+button {
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: var(--red);
+  color: white;
+  font-size: 23px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+
+.button-wrap span {
+  color: var(--grayish-blue);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 23px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-left: 15px;
+}
+
+.illustration {
+  transform: scale(2.2) translateX(25%);
+}
