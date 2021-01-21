@@ -4,6 +4,8 @@
 	box-sizing: border-box;
 }
 
+/* updated */
+
 :root {
 	--red: hsl(0, 100%, 68%);
 	--very-dark-blue: hsl(230, 29%, 20%);
